@@ -1,4 +1,6 @@
-package plugin2cuisine;
+package plugin1cuisine;
+
+
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridLayout;
@@ -7,9 +9,9 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Shell;
 
-public class Plugin2Dialog extends Dialog {
-
-    public Plugin2Dialog(Shell parentShell) {
+public class Plugin1CuisineDialog extends Dialog{
+	
+    public Plugin1CuisineDialog(Shell parentShell) {
         super(parentShell);
     }
 
@@ -17,7 +19,8 @@ public class Plugin2Dialog extends Dialog {
     protected Control createDialogArea(Composite parent) {
         Composite container = (Composite) super.createDialogArea(parent);
         Label label = new Label(container, SWT.NONE);
-        label.setText("Je suis plugin 2 cuisine");
+        label.setText("Je suis plugin 1 cuisine");
         return container;
     }
+
 }
