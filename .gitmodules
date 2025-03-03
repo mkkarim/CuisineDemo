@@ -1,0 +1,3 @@
+[submodule "bundles/commondemo2"]
+	path = bundles/commondemo2
+	url = https://github.com/mkkarim/commonDemo2.git
